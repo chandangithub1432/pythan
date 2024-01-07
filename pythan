@@ -1,0 +1,92 @@
+Python File Example (hello.py):
+
+python
+Copy code
+# This is a simple Python script
+# It prints "Hello, World!" to the console
+
+print("Hello, World!")
+Python Notes:
+
+Introduction to Python:
+
+Python is a high-level, interpreted programming language known for its readability and simplicity.
+It is versatile and widely used for web development, data analysis, artificial intelligence, machine learning, and more.
+Running Python Code:
+
+Python code is typically written in files with a .py extension.
+To run a Python script, open a terminal or command prompt, navigate to the script's directory, and type python filename.py.
+Variables and Data Types:
+
+Variables are used to store data. Python supports various data types such as integers, floats, strings, lists, tuples, and dictionaries.
+python
+Copy code
+# Example:
+age = 25
+name = "John"
+Control Flow:
+
+Python uses indentation to define blocks of code (no braces or semicolons).
+Control flow structures include if, else, elif, for, and while.
+python
+Copy code
+# Example:
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+Functions:
+
+Functions are reusable blocks of code. They are defined using the def keyword.
+python
+Copy code
+# Example:
+def greet(name):
+    print("Hello, " + name + "!")
+greet("Alice")
+Lists and Dictionaries:
+
+Lists are ordered collections, and dictionaries are key-value pairs.
+python
+Copy code
+# Example:
+fruits = ["apple", "orange", "banana"]
+person = {"name": "John", "age": 30}
+Modules and Libraries:
+
+Python has a rich ecosystem of libraries and modules. You can import modules using the import keyword.
+python
+Copy code
+# Example:
+import math
+print(math.sqrt(25))
+Exception Handling:
+
+Python allows you to handle exceptions using try, except, else, and finally blocks.
+python
+Copy code
+# Example:
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+File Handling:
+
+Python supports reading from and writing to files using the open() function.
+python
+Copy code
+# Example:
+with open("example.txt", "w") as file:
+    file.write("Hello, this is a text file.")
+Documentation and Comments:
+
+Use comments (#) for single-line comments and triple-quotes (''' or """) for multi-line comments.
+python
+Copy code
+# This is a single-line comment
+
+'''
+This is a
+multi-line comment
+'''
+Feel free to copy the Python file example into a file named hello.py and run it using the Python interpreter to see the output. As you progress, explore more advanced topics and projects to deepen your understanding of Python programming.
